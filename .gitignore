@@ -1,0 +1,6 @@
+venv
+*/pycache
+*/*/pycache
+*.sqlite3
+media/
+static/
