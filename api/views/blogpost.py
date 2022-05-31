@@ -23,4 +23,4 @@ class BlogPostViewSet(ModelViewSet):
             data = self.serializer_class(self.queryset.get(pk=pk)).data
             return Response(data)
         except self.model.DoesNotExist:
-            raise NotFound({'message': 'Album was not found'})
+            raise NotFound({'message': 'BlogPost was not found'})

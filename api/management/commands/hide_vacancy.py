@@ -3,6 +3,7 @@ from ...models import Vacancy
 
 class Command(BaseCommand):
     status = "ARCHIVED"
+
     help = f"Changes vacancy's status to '{status}'"
 
     def add_arguments(self, parser):
